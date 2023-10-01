@@ -3,6 +3,9 @@
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css);
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/powercord.css);
 
+/* Optional: Whitney Font support. Font file basically stolen from https://github.com/Overimagine1/old-discord-font. */
+@import url(https://leafyluigi.github.io/discord-themes/whitney.css);
+
 /* Optional: Better Discord addon. Useful if you have BDCompat enabled. Do note that not all plugins are supported. */
 /* @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/better-discord.css); */
 
@@ -66,11 +69,11 @@
   --mention-opacity: 0.3;
 
   /* For Advanced Users */
-  --code-font: Monaco, Consolas, Courier, monospace;
-  --body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
-  --background-filter: blur(2px);
-  --user-modal-filter: blur(2px);
-  --user-popout-filter: blur(2px);
+  --code-font: Hack, Monaco, Consolas, Courier, monospace;
+  --body-font: Whitney, "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+  --background-filter: none;
+  --user-modal-filter: none;
+  --user-popout-filter: none;
 
   /* User Modal Layout sizes. Changing these HAS NOT BEEN TESTED. */
   --user-modal-width: 900px;
@@ -80,6 +83,7 @@
   --hide-speed: 0.5s;
   --hide-member-list: 1;
   --hide-active-now: 1;
+  --hide-profile-panel: 1;
   --hide-channel-list: 0;
 
   /* Windows Only - How many *pixels* wide the min/max/close buttons should be. */
@@ -97,7 +101,7 @@
   --channel-tabs-favBar-enabled: 1; */
 
   /* Debug; please do not touch */
-  --update-notice-2-point-oh: none;
+  --update-notice-NY-2023: none;
 }
 
 
