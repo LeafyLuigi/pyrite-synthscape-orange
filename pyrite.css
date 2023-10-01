@@ -1,4 +1,4 @@
-/*! Pyrite -Synthscape Orange- v0.2.0 by LeafyLuigi */
+/*! Pyrite -Coucher de Soleil Rose- v0.2.0 by LeafyLuigi */
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css);
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/powercord.css);
@@ -17,11 +17,11 @@
 /* https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html */
 :root {
   /* URL must be HTTPS and a direct link to the image. You can have a custom background image for the User Popout and the User Modals. */
-  --background-image: url(https://leafyluigi.github.io/images/Synthscape%20by%20AxiomDesign.png);
+  --background-image: url(https://leafyluigi.github.io/images/Long%20Exposure%20Sunset%20at%20Hull%2C%20MA%20by%20Eric%20Moreno.png);
   --user-modal-image: var(--background-image);
   --user-popout-image: var(--background-image);
   /* Home icon is for the little button in the top left. */
-  --home-icon: url(https://leafyluigi.github.io/images/Sunset%20Nature%2024%20by%20Bouzid27.png);
+  --home-icon: url(https://leafyluigi.github.io/images/Cherry%20blossom%20I%20by%20Christoph%20Rupprecht.png);
 
   /* Image attachment can be "fixed", "scroll" or "local" */
   /* scroll/local attaches the background to the modal completely while fixed keeps it in line with the background */
@@ -37,10 +37,10 @@
   /* Secondary is an accent colour of sorts. It's not used as often as Primary. It should be a shade or two lighter or darker compared to Primary. */
   /* Hover is a secondary accent colour of sorts and is often used when hovering over something. Like Secondary, it should be a shade or two lighter or darker compared to Primary. */
   /* Tooltip is used for tooltips. It can whatever colour you wish. */
-  --primary-color: #FF6F00;
-  --secondary-color: #E06100;
-  --hover-color: #FF801F;
-  --tooltip-color: #B85000;
+  --primary-color: #ffb6db;
+  --secondary-color: #ff9eda;
+  --hover-color: #ec9fcf;
+  --tooltip-color: #ec8fa6;
 
   /* These colours are used for statues and other coloured things. Ignoring Green they default to Discord's HSL though converted to Hex. */
   /* Green's default here is the old green. The new green is #3ba55d */
@@ -68,9 +68,9 @@
   /* For Advanced Users */
   --code-font: Monaco, Consolas, Courier, monospace;
   --body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
-  --background-filter: none;
-  --user-modal-filter: none;
-  --user-popout-filter: none;
+  --background-filter: blur(2px);
+  --user-modal-filter: blur(2px);
+  --user-popout-filter: blur(2px);
 
   /* User Modal Layout sizes. Changing these HAS NOT BEEN TESTED. */
   --user-modal-width: 900px;
@@ -104,10 +104,10 @@
 /* Feel free to edit these ones for Dark Mode */
 .theme-dark,
 .theme-dark :not(div[class*='previewContainer-']) .theme-light {
-  --card-background: rgba(0,0,0,0.5);
-  --side-shading: rgba(0,0,0,0.5);
-  --middle-shading: rgba(0,0,0,0.3);
-  --header-shading: rgba(0,0,0,0.7);
+  --card-background: rgba(226,141,141,0.6);
+  --side-shading: rgba(226,141,141,0.6);
+  --middle-shading: rgba(226,141,141,0.4);
+  --header-shading: rgba(226,141,141,0.7);
 
   /* The following are applied to buttons to indicate hover and being held down. */
   --hover-filter: rgba(0,0,0,0.2);
@@ -117,10 +117,10 @@
 /* Feel free to edit these ones for Light Mode */
 .theme-light,
 .theme-light :not(div[class*='previewContainer-']) .theme-dark:not(div[class*='sidebar-']):not(nav[class*='guilds-']):not(div[class*='sidebarRegion-']) {
-  --card-background: rgba(255,255,255,0.05);
-  --side-shading: rgba(255,255,255,0.4);
-  --middle-shading: rgba(255,255,255,0.3);
-  --header-shading: rgba(255,255,255,0.5);
+  --card-background: rgba(226,141,141,0.6);
+  --side-shading: rgba(226,141,141,0.6);
+  --middle-shading: rgba(226,141,141,0.4);
+  --header-shading: rgba(226,141,141,0.7);
 
   /* The following are applied to buttons to indicate hover and being held down. */
   --hover-filter: rgba(255,255,255,0.2); 
